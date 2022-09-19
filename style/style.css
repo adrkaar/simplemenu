@@ -1,0 +1,23 @@
+
+/* Language: css */
+/* Path: style\style.css */
+
+table {
+    align-items: center;
+    border: inset 5px black;
+    width: 80%;
+}
+
+/* Center content on the page with body*/
+body {
+    align-items: center;
+}
+
+/* Center the table on the website*/
+table {
+    align-items: center;
+}
+
+#menu {
+    align-items: center;
+}
