@@ -20,14 +20,25 @@ body {
 
 }
 
+h1 {
+    align-content: center;
+    color: #000000;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
 /* Center the table on the website*/
 table {
     align-items: center;
     justify-content: center;
     background-color: #FFFFFF;
-    border-radius: 25px;
+    border-radius: 10px;
+    border-width: 3px;
     border-color: #FF5D73;
     width: 80%;
+    padding-inline-end: 100px;
+    padding-inline-start: 100px;
 }
 
 #menu {
@@ -35,5 +46,3 @@ table {
     padding: 10px;
     margin-left: 20%;
 }
-
-/* Center everything on the page with the id container*/ 
