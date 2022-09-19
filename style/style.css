@@ -2,13 +2,7 @@
 /* Language: css */
 /* Path: style\style.css */
 
-table {
-    align-items: center;
-    border: inset 5px black;
-    width: 80%;
-}
-
-/* Center content on the page with body*/
+/* body */
 body {
     align-items: center;
     background-color: #dfdbdb;
@@ -28,7 +22,7 @@ h1 {
     font-weight: bold;
     text-align: center;
 }
-/* Center the table on the website*/
+/* Table*/
 table {
     align-items: center;
     justify-content: center;
