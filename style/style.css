@@ -11,13 +11,29 @@ table {
 /* Center content on the page with body*/
 body {
     align-items: center;
+    background-color: #dfdbdb;
+}
+
+/* Hoved container*/
+#container {
+    align-items: center;
+
 }
 
 /* Center the table on the website*/
 table {
     align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    border-color: #FF5D73;
+    width: 80%;
 }
 
 #menu {
     align-items: center;
+    padding: 10px;
+    margin-left: 20%;
 }
+
+/* Center everything on the page with the id container*/ 
