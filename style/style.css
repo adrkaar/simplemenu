@@ -19,6 +19,16 @@ body {
     border-radius: 10px;
 }
 
+#footer {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: #FFFFFF;
+    width: 60%;
+    border-radius: 10px;
+    border-width: 3px;
+}
+
 #logo {
     display: flex;
     justify-content: center;
@@ -50,15 +60,15 @@ table {
     justify-content: center;
     background-color: #FFFFFF;
     border-radius: 10px;
-    border-width: 3px;
     border-color: #0f0809;
 }
 
 #menu {
     align-items: center;
-    padding: 10px;
     margin: auto;
     width: 60%;
+    padding-top: 10x;
+    padding-bottom: 10px;
 }
 
 #beskrivelse {
