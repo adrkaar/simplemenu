@@ -9,6 +9,28 @@ body {
     background-color: #dfdbdb;
 }
 
+#header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #FFFFFF;
+    margin: auto;
+    width: 60%;
+    border-radius: 10px;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
 /* Hoved container*/
 #container {
     align-items: center;
@@ -21,7 +43,6 @@ h1 {
     font-family: "Times New Roman", Times, serif;
     font-size: 50px;
     font-weight: bold;
-    text-align: center;
 }
 /* Table*/
 table {
@@ -31,19 +52,21 @@ table {
     border-radius: 10px;
     border-width: 3px;
     border-color: #0f0809;
-    width: 80%;
-    padding-inline-end: 100px;
-    padding-inline-start: 100px;
 }
 
 #menu {
     align-items: center;
     padding: 10px;
-    margin-left: 20%;
+    margin: auto;
+    width: 60%;
 }
 
 #beskrivelse {
     align-items: center;
     padding: 10px;
     padding: 100px;
+}
+
+ul {
+    list-style-type: none;
 }
