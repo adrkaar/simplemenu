@@ -11,8 +11,12 @@
         <div id="container">
             <div id="header">
                 <div id="logo">
-                    <h1>Simple Menu</h1>
+                    <h1 id="title" >Simple Menu</h1>
                 </div> 
+                <div id="contact-info">
+                    <p class="contact-info">Telefon: 90909090</p>
+                    <p class="contact-info">Adresse: Osloveien 2022</p>
+                </div>  
             </div>
 
             <!--Create a container that will contain a menu for 15 different dishes with allergies in a table-->
@@ -21,7 +25,7 @@
                     <div id="menu-heading">
                         <p class="heading-text">Matretter</p>
                     </div>
-
+                    
                     <div id="menu-items">
                         <div class="menu-item">
                             <p class="menu-item-header">Frittata Olivia</p>
@@ -54,119 +58,22 @@
                             <p class="menu-item-allergens">Hvete, melk, skalldyr</p>
                         </div>
                     </div>
-                </div>
-                <!--    </div>
-                <table>
-                    <tr><td><h1>Meny</h1></td></tr>
-                    <tr>
-                        <th>Retter</th>
-                        <th>Pris</th>
-                        <th>Allergener</th>
-                    </tr>
-                    <tr class="row-food">
-                        <td><h2>Frittata Olivia</h2></td>
-                    </tr>
-                    <tr>
-                        <td class="beskrivelse">Varmrøkt laks, asparges, poteter, reddik, syltet rødløk, crème fraîche og pepperrotdressing, focaccia</td>
-                        <td class="pris">150</td>
-                        <td class="allergener">Egg, hvete, melk, sennep, svoveldioksid og sulfitt</td>
-                    </tr>
-                    <tr class="row-food">
-                        <td><h2>Insalata al salmone</h2></td>
-                    </tr>
-                    <tr>
-                        <td class="beskrivelse">Marinert artisjokk, oliven, hvitløk, parmesan, sitron og brødsmuler</td>
-                        <td class="pris">200</td>
-                        <td class="allergener">Fisk, hvete, melk, selleri, svoveldioksid og sulfitt</td>
-                    </tr>
-                    <tr class="row-food">
-                        <td><h2>Insalata pollo e pancetta</h2></td>
-                    </tr>
-                    <tr>
-                        <td class="beskrivelse">Romanosalat, kyllingbryst, sprøstekt pancetta, parmesan, soltørkede tomater, spinat, soyabønner og syltet rødløk</td>
-                        <td class="pris">300</td>
-                        <td class="allergener">Egg, hvete, melk, soya, svoveldioksid og sulfitt</td>
-                    </tr>
+                    
+                    <div id="menu-heading">
+                        <p class="heading-text">Drikkevarer</p>   
+                    </div>
 
-                    <tr class="row-food">
-                        <td><h2>Insalata caprese con parma</h2></td>
-                    </tr>
-                    <tr>
-                        <td class="beskrivelse">Blandet salat, parmaskinke, mozzarella di bufala, tomater, pesto genovese og pinjekjerner</td>
-                        <td class="pris">281</td>
-                        <td class="allergener">Hvete, melk, pinjekjerne, soya, svoveldioksid og sulfitt</td>
-                    </tr>
-                    <tr class="row-food">
-                        <td><h2>4 formaggi</h2></td> 
-                    </tr>
-                    <tr>
-                        <td class="beskrivelse">Mozzarella, pecorino, parmesan, gorgonzola</td>
-                        <td class="pris">194</td>
-                        <td class="allergener">Hvete, melk</td>
-                    </tr>
-                    <tr class="row-food">
-                        <td><h2>Mare e monti</h2></td>
-                    </tr>
-                    <tr>
-                        <td class="beskrivelse">Crème fraîche, chili- og hvitløksmarinert scampi, italiensk krydret pølse, blandet sopp</td>
-                        <td class="pris">301</td>
-                        <td class="allergener">Hvete, melk, skalldyr</td>
-                    </tr>
-                    <tr class="row-food">
-                        <td><h2>Pollo bianco</h2></td>
-                    </tr>
-                    <tr>
-                        <td class="beskrivelse">Mozzarella, parmesan, kylling, sorte oliven, ruccola, pesto rosso</td>
-                        <td class="pris">200</td>
-                        <td class="allergener">Hvete, melk, pinjekjerne, soya</td>
-                    </tr>
-                    <tr>
-                        <td class="row-food"><h2>Agli asparagi</h2></td>
-                    </tr>
-                    <tr>
-                        <td class="beskrivelse">Asparges, crème fraîche, sitron</td>
-                        <td class="pris">199</td>
-                        <td class="allergener">Hvete, melk</td>
-                    </tr>
-                    <tr class="row-food">
-                        <td><h2>Al prosciutto cotto</h2></td>
-                    </tr>
-                    <tr>
-                        <td class="beskrivelse">tomat, mozzarella, italiensk skinke, basilikum</td>
-                        <td class="pris">201</td>
-                        <td class="allergener">Hvete, melk</td>
-                    </tr>
-                    <tr class="row-food">
-                        <td><h2>Mozzarella di burrata</h2></td>
-                    </tr>
-                    <tr>
-                        <td class="beskrivelse">Tomat, nduja, mozzarella, burrata, ruccola</td>
-                        <td class="pris">299</td>
-                        <td class="allergener">Hvete, melk</td>
-                    </tr>
-                    <th><h2>Drikke</h2></th>
-                    <tr class="row-drink">
-                        <td><h3>Coca cola</h3></td>
-                        <td class="pris">39</td>
-                        <td class="allergener">Ingen allergener</td>
-                    </tr>
-                    <tr class="row-drink">
-                        <td><h3>Frydenlund</h3></td>
-                        <td class="pris">89</td>
-                        <td class="allergener">Hvete</td>
-                    </tr>
-                    <tr class="row-drink">
-                        <td><h3>Vann</h3></td>
-                        <td class="pris">15</td>
-                        <td class="allergener">Ingen allergener</td>
-                    </tr>
-                    <tr class="row-drink">
-                        <td><h3>Is</h3></td>
-                        <td class="pris">49</td>
-                        <td class="allergener">Melk</td>
-                    </tr>
-                </table> -->
-            </div>
+                    <div id="menu-items">
+                        <div class="menu-item">
+                            <p class="menu-item-header">Mineralvann</p>
+                            <p class="menu-item-description">Coca cola <br> Fanta <br> Solo</p>
+                        </div>
+                        <div class="menu-item">
+                            <p class="menu-item-header">Alkohol</p>
+                            <p class="menu-item-description">Frydenlund <br> Heiniken <br> Vin</p>
+                            <p class="menu-item-allergens">Allergener: Hvete</p>
+                        </div>
+                </div>
         <div id="footer">
             <p>© 2022 - Restaurant Pizzabianco<br></p>
             <p>Kontakt +4790909090</p>
