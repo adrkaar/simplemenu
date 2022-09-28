@@ -24,10 +24,21 @@ body {
 
 .contact-info {
     font-family: 'Quicksand', bold;
-    font-size: 20px;
+    font-size: 10px;
 }
 
 #contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.opening-hours {
+    font-family: 'Quicksand', bold;
+    font-size: 10px;
+}
+
+#opening-hours {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -105,6 +116,11 @@ body {
 .menu-item-header {
     font-family: 'Quicksand', bold;
     font-size: 20px;
+}
+
+.menu-item-price {
+    font-family: 'Quicksand', normal;
+    font-size: 15px;
 }
 
 .menu-item-description {
